@@ -1,0 +1,53 @@
+/*PUZZLE MENU START*/
+#menuutama{
+	/*display: none;*/
+}
+.container{
+	width: 50%;
+	height: 700px;
+	border :1px solid;
+	margin:0px;
+	box-sizing: border-box;
+	position: absolute;
+	background-image: linear-gradient(to bottom right, red, yellow);
+}
+.besar{
+	/*box-sizing: border-box;*/
+	/*border :1px solid;*/
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	cursor: pointer;
+}
+
+
+/*kotak menu utama*/
+.one{
+	top: 0%;
+	left: 0%;
+	padding-top: 2%;
+	padding-left: 4%;
+}
+.two{
+	top: 0%;
+	left:26%;
+	padding-top: 2%;
+	padding-right: 4%;
+}
+.three{
+	top: 20%;
+	left: 9%;
+	padding-left: 6%;
+	
+}
+.four{
+	top: 20%;
+	left: 38%;
+	padding-right: 6%;
+	
+}
+.five{
+	top: 38%;
+	left: 27%;
+	padding-right: 6%;
+}

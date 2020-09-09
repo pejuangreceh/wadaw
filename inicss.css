@@ -1,0 +1,171 @@
+/*PUZZLE MENU START*/
+.container{
+	width: 700px;
+	height: 500px;
+	border :1px solid;
+	margin: 10px auto;
+	box-sizing: border-box;
+	display: flex;
+	position: absolute;
+	float: left;
+	background-image: linear-gradient(to bottom right, #C6C9CE, grey);
+	/*flex-direction: column;*/
+}
+.besar{
+	
+	/*height: 100px;*/
+	box-sizing: border-box;
+	/*border :1px solid;*/
+	padding: 15px;
+	padding-right: 15px;
+	text-align: center;
+	width: 6em;
+	height: 6em;
+	margin: 10px;
+	position: relative;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	cursor: pointer;
+}
+.gambar{
+	position: absolute;
+	top: 70%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+}
+.teks{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 6px;
+
+}
+.teks a{
+	text-decoration: none;
+	color: black;
+}
+.one{
+	/*kosong soalnya posisi gaperlu diubah*/
+}
+.two{
+	/*kosong soalnya posisi gaperlu diubah*/
+}
+.three{
+	top:20%;
+	left:-25%;
+}
+.four{
+	top: 20%;
+	left: -25%;
+}
+.five{
+	top:40%;
+	left:-50%;
+}
+.kecil1{
+	position: absolute;
+	top: 10%;
+	left: 0%;
+
+}
+.kecil2{
+	position: absolute;
+	top: 10%;
+	left: 95%;
+}
+.kecil3{
+	position: absolute;
+	top: 35%;
+	left: -20%;
+}
+.kecil4{
+	position: absolute;
+	top: 60%;
+	left: 115%;
+}
+.kecil5{
+	position: absolute;
+	top: 80%;
+	left: 115%;
+}
+
+/*PUZZLE MENU END*/
+
+/*PAGE INFRA START*/
+#infra{
+	display:none ;
+}
+.inimenu{
+	box-sizing: border-box;
+	/*border: 1px solid;*/
+	width: 250px;
+	height: 400px;
+	background-color: #DF3001;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+.teks-2{
+	color: white;
+	font-family:;
+	font-weight:100;
+}
+.isi{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.isi img.device-img{
+	position: absolute;
+	top:27%;
+	left:32%;
+	transform: translate(-50%, -50%);
+}
+.isi img.cabling-img{
+	position: absolute;
+	top:47%;
+	left:32%;
+	transform: translate(-50%, -50%);
+}
+.isi img.network-img{
+	position: absolute;
+	top:67%;
+	left:32%;
+	transform: translate(-50%, -50%);
+}
+
+p{
+	font-size: 13px;
+	margin-top: -5%;
+}
+button.kontak{
+	background-color: white;
+	border: none;
+	color: black;
+	width: 170px;
+	height: 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius: 12px;
+}
+.tombol{
+	text-align: center;
+	margin-top: 20px;
+}
+.kembali{
+	margin-top: -7px;
+	margin-left: 0px;
+}
+.kembali button{
+	width: 25px;
+	height: 25px;
+	border-radius: 12px;
+	border: 1px solid orange;
+}
+/*PAGE INFRA END*/
+@media(max-width: 900px){
+	
+}
